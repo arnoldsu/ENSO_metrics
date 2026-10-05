@@ -1,0 +1,772 @@
+{
+  "RESULTS": {
+    "model": {
+      "ACCESS-CM2": {
+        "r1i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "BiasPrLatRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "BiasPrLatRmse",
+                  "units": null
+                }
+              },
+              "BiasPrLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "BiasPrLonRmse",
+                  "units": null
+                }
+              },
+              "BiasSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Zonal root mean square error of equatorial_pacific sst, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "sst Zonal RMSE",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "BiasSstLonRmse",
+                  "units": "C"
+                }
+              },
+              "BiasTauxLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "BiasTauxLonRmse",
+                  "units": null
+                }
+              },
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoDuration": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against nino3.4 SSTA during 6 years (centered on ENSO), the duration is the number of consecutive months during which the regression is above 0.25, time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                  "name": "ENSO Duration based on life cyle SSTA pattern",
+                  "ref": "Using CDAT",
+                  "time_frequency": "monthly",
+                  "units": "months"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoDuration",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstDiversity_2": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Nino (Nina) events = nino3.4 sstA > 0.75 (< -0.75) during DEC, zonal SSTA (meridional averaged [-5.0 ; 5.0]), the zonal SSTA maximum (minimum) is located for each event, the diversity is the interquartile range (IQR = Q3 - Q1), time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                  "name": "ENSO Diversity (interquartile range)",
+                  "ref": "Using CDAT regridding",
+                  "time_frequency": "monthly",
+                  "units": "long"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSstDiversity",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              },
+              "EnsoSstSkew": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO skewness",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSstSkew",
+                  "units": "%"
+                }
+              },
+              "EnsoSstTsRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against nino3.4 SSTA during 6 years (centered on ENSO), time series are linearly detrended, smoothing using a triangle shaped window of 5 points",
+                  "name": "ENSO life cyle SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstTsRmse",
+                  "units": "C/C"
+                }
+              },
+              "SeasonalPrLatRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "SeasonalPrLatRmse",
+                  "units": null
+                }
+              },
+              "SeasonalPrLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "SeasonalPrLonRmse",
+                  "units": null
+                }
+              },
+              "SeasonalSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Zonal root mean square error of equatorial_pacific climatological sst STD, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "sst zonal seasonality RMSE",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "SeasonalSstLonRmse",
+                  "units": "C"
+                }
+              },
+              "SeasonalTauxLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                    "name": "ACCESS-CM2_r1i1p1f1"
+                  }
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1",
+                  "method": null,
+                  "name": "SeasonalTauxLonRmse",
+                  "units": null
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO performance"
+          },
+          "value": {
+            "BiasPrLatRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            },
+            "BiasPrLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            },
+            "BiasSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.4912984164738844,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.5679085895340233,
+                  "value_error": null
+                }
+              }
+            },
+            "BiasTauxLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            },
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 0.8119679626602269,
+                  "value_error": 0.06321162016239695
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 5.590927538900915,
+                  "value_error": 16.870588395915085
+                },
+                "Tropflux": {
+                  "value": 10.178444106758235,
+                  "value_error": 21.194633622721586
+                }
+              }
+            },
+            "EnsoDuration": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 11.0,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": 13.0,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 11.0,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 15.384615384615385,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.0,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 0.786149121267317,
+                  "value_error": 0.12258955892288097
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 35.75806162177022,
+                  "value_error": 20.561240175109603
+                },
+                "Tropflux": {
+                  "value": 45.9844649363057,
+                  "value_error": 25.613022255443525
+                }
+              }
+            },
+            "EnsoSstDiversity_2": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 30.0,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": 49.0,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 32.0,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 38.775510204081634,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 6.25,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.054295903117361134,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.03955626904869506,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSstSkew": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": -0.28628279349834074,
+                  "value_error": -0.022287085247006958
+                },
+                "HadISST": {
+                  "value": 0.4032435763037769,
+                  "value_error": 0.03303500094523094
+                },
+                "Tropflux": {
+                  "value": 0.39744741059611877,
+                  "value_error": 0.06284195338099377
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 170.9950040921853,
+                  "value_error": -11.343090927620734
+                },
+                "Tropflux": {
+                  "value": 172.0303581973158,
+                  "value_error": -16.996555409483562
+                }
+              }
+            },
+            "EnsoSstTsRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.221460631833056,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.2261356633879312,
+                  "value_error": null
+                }
+              }
+            },
+            "SeasonalPrLatRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            },
+            "SeasonalPrLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            },
+            "SeasonalSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.23407633353930732,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.2319115082156969,
+                  "value_error": null
+                }
+              }
+            },
+            "SeasonalTauxLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "keyerror": "RuntimeError: Land-sea mask generation failed inside regionmask. Original error: ConnectionError: HTTPSConnectionPool(host='naturalearth.s3.amazonaws.com', port=443): Max retries exceeded with url: /5.0.0/110m_physical/ne_110m_land.zip (Caused by NewConnectionError(\"HTTPSConnection(host='naturalearth.s3.amazonaws.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")). dims=('time', 'lat', 'lon'), coords=['time', 'lat', 'lon'].",
+              "metric": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

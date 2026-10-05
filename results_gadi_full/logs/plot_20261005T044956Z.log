@@ -1,0 +1,101 @@
+开始时间: Mon Oct  5 04:49:56 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:82: RuntimeWarning: Mean of empty slice
+  values = (values - np.nanmean(values, axis=0)) / np.nanstd(values, axis=0)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:2015: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:89: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.tight_layout()
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 36328 (\N{CJK UNIFIED IDEOGRAPH-8DE8}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 27169 (\N{CJK UNIFIED IDEOGRAPH-6A21}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 24335 (\N{CJK UNIFIED IDEOGRAPH-5F0F}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20934 (\N{CJK UNIFIED IDEOGRAPH-51C6}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 21270 (\N{CJK UNIFIED IDEOGRAPH-5316}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:91: UserWarning: Glyph 20540 (\N{CJK UNIFIED IDEOGRAPH-503C}) missing from font(s) DejaVu Sans.
+  fig.savefig(target, dpi=180)
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_perf_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_proc_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_tel_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_eq_bias_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_enso_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_feedback_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_teleconnection_all_metrics.png
+完成时间: Mon Oct  5 04:50:10 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

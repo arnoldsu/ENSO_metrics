@@ -1,0 +1,7 @@
+开始时间: Mon Oct  5 03:05:14 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+跳过 ENSO_proc：没有计算结果
+跳过 ENSO_tel：没有计算结果
+缺少 collection 结果，不能生成完整 PMP portrait plot: ENSO_proc, ENSO_tel

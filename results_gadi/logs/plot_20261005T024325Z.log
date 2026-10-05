@@ -1,0 +1,6 @@
+开始时间: Mon Oct  5 02:43:25 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.14
+完成时间: Mon Oct  5 02:43:26 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi

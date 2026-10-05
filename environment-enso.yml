@@ -1,0 +1,20 @@
+name: enso-metrics
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.26,<2.4
+  - scipy
+  - xarray
+  - xcdat
+  - cftime
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - cmocean
+  - regionmask
+  - xesmf
+  - esmpy
+  - packaging
+  - pytest
+  - pcmdi_metrics>=3.9

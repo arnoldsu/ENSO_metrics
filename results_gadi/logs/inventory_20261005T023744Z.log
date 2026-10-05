@@ -1,0 +1,12 @@
+开始时间: Mon Oct  5 02:37:44 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 UKESM1-0-LL TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.14
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi/manifests/inventory.json
+ACCESS-CM2: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r1i1p1f1, variables=[], split=[]
+ACCESS-ESM1-5: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r1i1p1f1, variables=[], split=[]
+UKESM1-0-LL: root=None, variables=[], split=[]
+TaiESM1: root=None, variables=[], split=[]
+CESM2: root=None, variables=[], split=[]
+完成时间: Mon Oct  5 02:37:44 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi

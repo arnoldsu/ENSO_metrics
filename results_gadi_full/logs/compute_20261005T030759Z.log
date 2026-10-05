@@ -1,0 +1,284 @@
+开始时间: Mon Oct  5 03:07:59 UTC 2026
+模式: CESM2
+集合: ENSO_tel
+Python: Python 3.11.16
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+CESM2: root=/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2/historical/r1i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+numpy: 2.3.5
+scipy: 1.17.1
+xarray: 2026.9.0
+cftime: 1.6.6
+netCDF4: 1.7.4
+matplotlib: 3.11.2
+cartopy: 0.26.0
+xesmf: 0.9.2
+xcdat: 0.11.4
+regionmask: 0.13.0
+cmocean: v3.0.3
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'pr' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacella' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'sftlf' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7283: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'tos' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/xarray/conventions.py:210: SerializationWarning: variable 'areacello' has multiple fill values {np.float32(1e+20), np.float64(1e+20)} defined, decoding all values to NaN.
+  var = coder.decode(var, name=name)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoUvcdatToolsLib.py:7386: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+Traceback (most recent call last):
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoComputeMetricsLib.py", line 456, in ComputeCollection
+    valu, vame, dive, dime = ComputeMetric(
+                             ^^^^^^^^^^^^^^
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoComputeMetricsLib.py", line 1184, in ComputeMetric
+    units = diagnostic1[obs]["units"]
+            ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'obs' where it is not associated with a value
+Traceback (most recent call last):
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoComputeMetricsLib.py", line 456, in ComputeCollection
+    valu, vame, dive, dime = ComputeMetric(
+                             ^^^^^^^^^^^^^^
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/EnsoMetrics/EnsoComputeMetricsLib.py", line 1184, in ComputeMetric
+    units = diagnostic1[obs]["units"]
+            ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'obs' where it is not associated with a value
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+CESM2: root=/g/data/oi10/replicas/CMIP6/CMIP/NCAR/CESM2/historical/r1i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+[94m     ComputeCollection: metric = EnsoAmpl[0m
+[94m     ComputeMetric: oneVarmetric = CESM2_r1i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoPrMapDjf[0m
+[94m     ComputeMetric: twoVarRMSmetric, EnsoPrMapDjf = CESM2_r1i1p1f1 and HadISST_GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarRMSmetric, EnsoPrMapDjf = CESM2_r1i1p1f1 and Tropflux_GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoPrMapJja[0m
+[94m     ComputeMetric: twoVarRMSmetric, EnsoPrMapJja = CESM2_r1i1p1f1 and HadISST_GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarRMSmetric, EnsoPrMapJja = CESM2_r1i1p1f1 and Tropflux_GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoSeasonality[0m
+[94m     ComputeMetric: oneVarmetric = CESM2_r1i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = CESM2_r1i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = CESM2_r1i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstMapDjf[0m
+[94m     ComputeCollection: metric = EnsoSstMapJja[0m
+完成时间: Mon Oct  5 03:16:04 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

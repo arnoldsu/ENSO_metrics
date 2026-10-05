@@ -1,0 +1,325 @@
+开始时间: Mon Oct  5 03:00:56 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+conda-forge/linux-64                                        Using cache
+conda-forge/noarch                                          Using cache
+
+Transaction
+
+  Prefix: /scratch/p66/ars599/enso_metrics_env
+
+  Updating specs:
+
+   - python=3.11
+   - numpy[version=">=1.26,<2.4"]
+   - scipy
+   - xarray
+   - xcdat
+   - cftime
+   - netcdf4
+   - matplotlib
+   - cartopy
+   - cmocean
+   - regionmask
+   - xesmf
+   - esmpy
+   - packaging
+   - pytest
+   - pcmdi_metrics>=3.9
+
+
+  Package                           Version  Build               Channel           Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + anyio                            4.15.1  pyh5ded981_1        conda-forge      176kB
+  + argon2-cffi                      25.1.0  pyhd8ed1ab_0        conda-forge       19kB
+  + argon2-cffi-bindings             26.1.0  py311h0d48ccd_2     conda-forge       33kB
+  + arrow                             1.4.0  pyhcf101f3_0        conda-forge      114kB
+  + asttokens                         3.0.2  pyhd8ed1ab_0        conda-forge       35kB
+  + async-lru                         2.3.0  pyhcf101f3_0        conda-forge       23kB
+  + babel                            2.18.0  pyhcf101f3_1        conda-forge        8MB
+  + beautifulsoup4                   4.15.0  pyha770c72_0        conda-forge       93kB
+  + bleach                            6.4.0  pyhcf101f3_0        conda-forge      142kB
+  + bleach-with-css                   6.4.0  hac0b51c_0          conda-forge        4kB
+  + boltons                          26.2.0  pyhd8ed1ab_0        conda-forge      321kB
+  + bottleneck                        1.6.0  np2py311h98b8029_4  conda-forge      163kB
+  + cdp                               1.7.0  pyhd8ed1ab_2        conda-forge       22kB
+  + cffi                              2.1.1  py311h904a5e5_3     conda-forge      310kB
+  + colorcet                          3.2.1  pyhd8ed1ab_0        conda-forge      174kB
+  + comm                              0.2.3  pyhe01879c_0        conda-forge       15kB
+  + debugpy                          1.8.22  py311hdfc3925_0     conda-forge        3MB
+  + defusedxml                        0.7.1  pyhd8ed1ab_0        conda-forge       24kB
+  + enso_metrics                      2.0.2  pyhd8ed1ab_0        conda-forge        3MB
+  + eofs                              2.0.0  pyhff2d567_0        conda-forge      854kB
+  + executing                         2.2.1  pyhd8ed1ab_0        conda-forge       31kB
+  + filelock                         4.0.10  pyhd8ed1ab_0        conda-forge       86kB
+  + flexcache                           0.3  pyh5ded981_2        conda-forge       19kB
+  + flexparser                          0.4  pyh5ded981_2        conda-forge       31kB
+  + formulaic                         1.2.2  pyhd8ed1ab_0        conda-forge       90kB
+  + fqdn                              1.6.0  pyh5ded981_0        conda-forge       29kB
+  + h11                              0.16.0  pyhcf101f3_1        conda-forge       39kB
+  + httpcore                          1.0.9  pyh29332c3_0        conda-forge       49kB
+  + httpx                            0.28.1  pyhd8ed1ab_0        conda-forge       63kB
+  + interface_meta                    1.3.0  pyhd8ed1ab_1        conda-forge       18kB
+  + ipykernel                         7.4.0  pyh4a3486f_0        conda-forge      144kB
+  + ipython                          9.17.1  pyh53cf698_0        conda-forge      731kB
+  + ipython_pygments_lexers           1.1.1  pyhd8ed1ab_0        conda-forge       14kB
+  + isoduration                     20.11.0  pyhd8ed1ab_1        conda-forge       20kB
+  + jedi                             0.20.0  pyhcf101f3_0        conda-forge        3MB
+  + json5                            0.15.0  pyhd8ed1ab_0        conda-forge       39kB
+  + jsonpointer                       3.1.1  pyhcf101f3_0        conda-forge       14kB
+  + jsonschema                       4.26.0  pyhcf101f3_1        conda-forge       82kB
+  + jsonschema-specifications      2025.9.1  pyhcf101f3_0        conda-forge       19kB
+  + jsonschema-with-format-nongpl    4.26.0  hcf101f3_1          conda-forge        5kB
+  + jupyter-builder                   1.2.3  pyh5ded981_0        conda-forge      888kB
+  + jupyter-lsp                       2.3.1  pyhcf101f3_0        conda-forge       62kB
+  + jupyter_client                   8.10.0  pyhcf101f3_0        conda-forge      119kB
+  + jupyter_core                      5.9.1  pyhc90fa1f_0        conda-forge       66kB
+  + jupyter_events                   0.12.1  pyhcf101f3_0        conda-forge       24kB
+  + jupyter_server                   2.21.1  pyh5ded981_0        conda-forge      367kB
+  + jupyter_server_terminals          0.5.4  pyhcf101f3_0        conda-forge       22kB
+  + jupyterlab                        4.6.4  pyhd8ed1ab_0        conda-forge       13MB
+  + jupyterlab_pygments               0.3.0  pyhd8ed1ab_2        conda-forge       19kB
+  + jupyterlab_server                2.28.1  pyh5ded981_0        conda-forge       52kB
+  + lark                              1.3.1  pyhd8ed1ab_0        conda-forge       94kB
+  + libsodium                        1.0.22  hebe6cf0_3          conda-forge      271kB
+  + libudunits2                      2.2.28  h40f5838_3          conda-forge       81kB
+  + matplotlib-inline                 0.2.2  pyhd8ed1ab_0        conda-forge       16kB
+  + mistune                           3.3.4  pyhcf101f3_0        conda-forge       94kB
+  + nbclient                         0.11.0  pyhcf101f3_1        conda-forge       30kB
+  + nbconvert-core                   7.17.1  pyhcf101f3_0        conda-forge      202kB
+  + nbformat                         5.11.1  pyhcf101f3_0        conda-forge      108kB
+  + nc-time-axis                      1.4.1  pyhd8ed1ab_1        conda-forge       20kB
+  + nest-asyncio2                     1.7.3  pyh5ded981_0        conda-forge       16kB
+  + notebook-shim                     0.2.4  pyhd8ed1ab_1        conda-forge       17kB
+  + numdifftools                     0.11.1  pyhd8ed1ab_0        conda-forge       74kB
+  + output_viewer                     1.3.4  pyhd8ed1ab_0        conda-forge       91kB
+  + overrides                         7.7.0  pyhd8ed1ab_1        conda-forge       30kB
+  + pandocfilters                     1.5.1  pyh5ded981_0        conda-forge       16kB
+  + parso                             0.8.7  pyhcf101f3_0        conda-forge       82kB
+  + patsy                             1.0.3  pyhcf101f3_0        conda-forge      194kB
+  + pcmdi_metrics                     4.2.1  pyhd8ed1ab_0        conda-forge        5MB
+  + pexpect                           4.9.0  pyhd8ed1ab_1        conda-forge       54kB
+  + pint                             0.25.3  pyhc364b38_0        conda-forge      245kB
+  + prometheus_client                0.26.0  pyhd8ed1ab_0        conda-forge       62kB
+  + prompt-toolkit                   3.0.53  pyha770c72_0        conda-forge      276kB
+  + ptyprocess                        0.7.0  pyhd8ed1ab_1        conda-forge       19kB
+  + pure_eval                         0.2.4  pyhd8ed1ab_0        conda-forge       18kB
+  + pycparser                           3.0  pyhcf101f3_0        conda-forge       56kB
+  + python-abi3                        3.11  ha8785bc_3          conda-forge        8kB
+  + python-fastjsonschema            2.22.2  pyhcf101f3_0        conda-forge      254kB
+  + python-json-logger                4.2.0  pyhd8ed1ab_0        conda-forge       19kB
+  + python-tzdata                    2026.5  pyh5ded981_0        conda-forge      141kB
+  + pytz                             2026.5  pyh5ded981_0        conda-forge      202kB
+  + pyzmq                            27.2.0  py311hcbe55da_2     conda-forge      397kB
+  + referencing                      0.37.0  pyhcf101f3_0        conda-forge       52kB
+  + rfc3339-validator                 0.1.4  pyhd8ed1ab_1        conda-forge       10kB
+  + rfc3986-validator                 0.1.1  pyh9f0ad1d_0        conda-forge        8kB
+  + rfc3987-syntax                    1.1.0  pyhe01879c_1        conda-forge       23kB
+  + rpds-py                        2026.6.3  py311ha6e1976_2     conda-forge      300kB
+  + seaborn                          0.13.2  hd8ed1ab_3          conda-forge        7kB
+  + seaborn-base                     0.13.2  pyhd8ed1ab_3        conda-forge      228kB
+  + send2trash                        2.1.0  pyha191276_1        conda-forge       24kB
+  + sniffio                           1.3.1  pyhd8ed1ab_2        conda-forge       16kB
+  + soupsieve                          2.10  pyhd8ed1ab_0        conda-forge       40kB
+  + stack_data                        0.6.3  pyhd8ed1ab_1        conda-forge       27kB
+  + statsmodels                      0.15.0  np2py311h98b8029_2  conda-forge       14MB
+  + terminado                        0.18.1  pyhc90fa1f_1        conda-forge       25kB
+  + tinycss2                          1.4.0  pyhd8ed1ab_0        conda-forge       28kB
+  + traitlets                        5.16.1  pyhcf101f3_0        conda-forge      117kB
+  + typing-extensions                4.16.0  h69aa097_0          conda-forge       94kB
+  + typing_utils                      0.1.0  pyhd8ed1ab_1        conda-forge       15kB
+  + udunits2                         2.2.28  h40f5838_3          conda-forge      113kB
+  + uri-template                      1.3.0  pyhd8ed1ab_1        conda-forge       24kB
+  + wcwidth                           0.9.1  py311hd139983_3     conda-forge      367kB
+  + webcolors                       25.10.0  pyhd8ed1ab_0        conda-forge       19kB
+  + webencodings                      0.5.1  pyhd8ed1ab_3        conda-forge       15kB
+  + websocket-client                  1.9.2  pyh5ded981_1        conda-forge       78kB
+  + wrapt                             2.5.0  py311h194be0f_0     conda-forge      156kB
+  + xclim                            0.62.0  pyhd8ed1ab_0        conda-forge      677kB
+  + xmltodict                         1.0.4  pyhcf101f3_0        conda-forge       21kB
+  + yamale                            6.1.0  pyhd8ed1ab_0        conda-forge       48kB
+  + zeromq                            4.3.5  h901266b_12         conda-forge      322kB
+
+  Downgrade:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  - pandas                            3.0.6  np2py311h1e9b377_0  conda-forge     Cached
+  + pandas                            2.3.3  py311hed34c8f_2     conda-forge       15MB
+
+  Summary:
+
+  Install: 109 packages
+  Downgrade: 1 packages
+
+  Total download: 75MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+Transaction starting
+Unlinking pandas-3.0.6-np2py311h1e9b377_0
+Linking eofs-2.0.0-pyhff2d567_0
+Linking colorcet-3.2.1-pyhd8ed1ab_0
+Linking nc-time-axis-1.4.1-pyhd8ed1ab_1
+Linking numdifftools-0.11.1-pyhd8ed1ab_0
+Linking xmltodict-1.0.4-pyhcf101f3_0
+Linking traitlets-5.16.1-pyhcf101f3_0
+Linking async-lru-2.3.0-pyhcf101f3_0
+Linking anyio-4.15.1-pyh5ded981_1
+Linking typing-extensions-4.16.0-h69aa097_0
+Linking rfc3986-validator-0.1.1-pyh9f0ad1d_0
+Linking prometheus_client-0.26.0-pyhd8ed1ab_0
+Linking send2trash-2.1.0-pyha191276_1
+Linking websocket-client-1.9.2-pyh5ded981_1
+Linking python-json-logger-4.2.0-pyhd8ed1ab_0
+Linking rfc3339-validator-0.1.4-pyhd8ed1ab_1
+Linking jsonpointer-3.1.1-pyhcf101f3_0
+Linking fqdn-1.6.0-pyh5ded981_0
+Linking uri-template-1.3.0-pyhd8ed1ab_1
+Linking webcolors-25.10.0-pyhd8ed1ab_0
+Linking ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0
+Linking comm-0.2.3-pyhe01879c_0
+Linking nest-asyncio2-1.7.3-pyh5ded981_0
+Linking sniffio-1.3.1-pyhd8ed1ab_2
+Linking h11-0.16.0-pyhcf101f3_1
+Linking output_viewer-1.3.4-pyhd8ed1ab_0
+Linking python-tzdata-2026.5-pyh5ded981_0
+Linking pytz-2026.5-pyh5ded981_0
+Linking boltons-26.2.0-pyhd8ed1ab_0
+Linking filelock-4.0.10-pyhd8ed1ab_0
+Linking yamale-6.1.0-pyhd8ed1ab_0
+Linking ptyprocess-0.7.0-pyhd8ed1ab_1
+Linking lark-1.3.1-pyhd8ed1ab_0
+Linking typing_utils-0.1.0-pyhd8ed1ab_1
+Linking python-fastjsonschema-2.22.2-pyhcf101f3_0
+Linking defusedxml-0.7.1-pyhd8ed1ab_0
+Linking pandocfilters-1.5.1-pyh5ded981_0
+Linking jupyterlab_pygments-0.3.0-pyhd8ed1ab_2
+Linking mistune-3.3.4-pyhcf101f3_0
+Linking babel-2.18.0-pyhcf101f3_1
+Linking json5-0.15.0-pyhd8ed1ab_0
+Linking webencodings-0.5.1-pyhd8ed1ab_3
+Linking soupsieve-2.10-pyhd8ed1ab_0
+Linking patsy-1.0.3-pyhcf101f3_0
+Linking pycparser-3.0-pyhcf101f3_0
+Linking asttokens-3.0.2-pyhd8ed1ab_0
+Linking executing-2.2.1-pyhd8ed1ab_0
+Linking pure_eval-0.2.4-pyhd8ed1ab_0
+Linking parso-0.8.7-pyhcf101f3_0
+Linking interface_meta-1.3.0-pyhd8ed1ab_1
+Linking python-abi3-3.11-ha8785bc_3
+Linking matplotlib-inline-0.2.2-pyhd8ed1ab_0
+Linking jupyter_core-5.9.1-pyhc90fa1f_0
+Linking flexparser-0.4-pyh5ded981_2
+Linking flexcache-0.3-pyh5ded981_2
+Linking httpcore-1.0.9-pyh29332c3_0
+Linking cdp-1.7.0-pyhd8ed1ab_2
+Linking arrow-1.4.0-pyhcf101f3_0
+Linking pexpect-4.9.0-pyhd8ed1ab_1
+Linking terminado-0.18.1-pyhc90fa1f_1
+Linking rfc3987-syntax-1.1.0-pyhe01879c_1
+Linking overrides-7.7.0-pyhd8ed1ab_1
+Linking tinycss2-1.4.0-pyhd8ed1ab_0
+Linking bleach-6.4.0-pyhcf101f3_0
+Linking beautifulsoup4-4.15.0-pyha770c72_0
+Linking stack_data-0.6.3-pyhd8ed1ab_1
+Linking jedi-0.20.0-pyhcf101f3_0
+Linking jupyter-builder-1.2.3-pyh5ded981_0
+Linking pint-0.25.3-pyhc364b38_0
+Linking httpx-0.28.1-pyhd8ed1ab_0
+Linking isoduration-20.11.0-pyhd8ed1ab_1
+Linking jupyter_server_terminals-0.5.4-pyhcf101f3_0
+Linking bleach-with-css-6.4.0-hac0b51c_0
+Linking rpds-py-2026.6.3-py311ha6e1976_2
+Linking debugpy-1.8.22-py311hdfc3925_0
+Linking libudunits2-2.2.28-h40f5838_3
+Linking bottleneck-1.6.0-np2py311h98b8029_4
+Linking libsodium-1.0.22-hebe6cf0_3
+Linking wrapt-2.5.0-py311h194be0f_0
+Linking pandas-2.3.3-py311hed34c8f_2
+Linking cffi-2.1.1-py311h904a5e5_3
+Linking wcwidth-0.9.1-py311hd139983_3
+Linking udunits2-2.2.28-h40f5838_3
+Linking zeromq-4.3.5-h901266b_12
+Linking argon2-cffi-bindings-26.1.0-py311h0d48ccd_2
+Linking pyzmq-27.2.0-py311hcbe55da_2
+Linking referencing-0.37.0-pyhcf101f3_0
+Linking formulaic-1.2.2-pyhd8ed1ab_0
+Linking seaborn-base-0.13.2-pyhd8ed1ab_3
+Linking xclim-0.62.0-pyhd8ed1ab_0
+Linking prompt-toolkit-3.0.53-pyha770c72_0
+Linking enso_metrics-2.0.2-pyhd8ed1ab_0
+warning  libmamba [enso_metrics-2.0.2-pyhd8ed1ab_0] The following files were already present in the environment:
+    - bin/driver_metric_collection.py
+    - bin/driver_plot_correlation.py
+    - bin/driver_plot_divedowns.py
+    - bin/driver_plot_metric_comparison.py
+    - bin/driver_plot_portraitplot.py
+    - bin/driver_tools_lib.py
+    - bin/enso_metrics_driver_example.py
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/INSTALLER
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/METADATA
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/RECORD
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/REQUESTED
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/WHEEL
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/direct_url.json
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/licenses/LICENSE
+    - lib/python3.11/site-packages/ensometrics-2.0.1.dist-info/top_level.txt
+Linking argon2-cffi-25.1.0-pyhd8ed1ab_0
+Linking jupyter_client-8.10.0-pyhcf101f3_0
+Linking jsonschema-specifications-2025.9.1-pyhcf101f3_0
+Linking ipython-9.17.1-pyh53cf698_0
+Linking jsonschema-4.26.0-pyhcf101f3_1
+Linking ipykernel-7.4.0-pyh4a3486f_0
+Linking jsonschema-with-format-nongpl-4.26.0-hcf101f3_1
+Linking nbformat-5.11.1-pyhcf101f3_0
+Linking jupyter_events-0.12.1-pyhcf101f3_0
+Linking nbclient-0.11.0-pyhcf101f3_1
+Linking nbconvert-core-7.17.1-pyhcf101f3_0
+Linking jupyter_server-2.21.1-pyh5ded981_0
+Linking notebook-shim-0.2.4-pyhd8ed1ab_1
+Linking jupyterlab_server-2.28.1-pyh5ded981_0
+Linking jupyter-lsp-2.3.1-pyhcf101f3_0
+Linking jupyterlab-4.6.4-pyhd8ed1ab_0
+Linking statsmodels-0.15.0-np2py311h98b8029_2
+Linking seaborn-0.13.2-hd8ed1ab_3
+Linking pcmdi_metrics-4.2.1-pyhd8ed1ab_0
+
+Transaction finished
+
+To activate this environment, use:
+
+    mamba activate /scratch/p66/ars599/enso_metrics_env
+
+Or to execute a single command in this environment, use:
+
+    mamba run -p /scratch/p66/ars599/enso_metrics_env mycommand
+
+Obtaining file:///g/data/p66/ars599/ENSO_metrics
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: EnsoMetrics
+  Building editable for EnsoMetrics (pyproject.toml): started
+  Building editable for EnsoMetrics (pyproject.toml): finished with status 'done'
+  Created wheel for EnsoMetrics: filename=ensometrics-2.0.1-0.editable-py3-none-any.whl size=31977 sha256=f76be7a2e424843d6faf80fa64ce3ad6d20faef7c22b51420e2785e487c9ef45
+  Stored in directory: /scratch/p66/ars599/tmp/pip-ephem-wheel-cache-8jimjsac/wheels/47/53/3f/2c3c549b20f155d836e854a51aa2c873477019e9477e66ae0d
+Successfully built EnsoMetrics
+Installing collected packages: EnsoMetrics
+  Attempting uninstall: EnsoMetrics
+    Found existing installation: EnsoMetrics 2.0.1
+    Can't uninstall 'EnsoMetrics'. No files were found to uninstall.
+Successfully installed EnsoMetrics-2.0.1
+环境已建立: /scratch/p66/ars599/enso_metrics_env
+完成时间: Mon Oct  5 03:02:02 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi

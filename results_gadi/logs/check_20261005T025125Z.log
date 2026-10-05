@@ -1,0 +1,18 @@
+开始时间: Mon Oct  5 02:51:25 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+ERROR 1: PROJ: proj_create_from_database: Open of /scratch/p66/ars599/enso_metrics_env/share/proj failed
+numpy: 2.3.5
+scipy: 1.17.1
+xarray: 2026.9.0
+cftime: 1.6.6
+netCDF4: 1.7.4
+matplotlib: 3.11.2
+cartopy: 0.26.0
+xesmf: 0.9.2
+xcdat: 0.11.4
+regionmask: 0.13.0
+cmocean: v3.0.3
+完成时间: Mon Oct  5 02:51:34 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi

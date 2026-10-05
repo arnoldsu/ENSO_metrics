@@ -1,0 +1,21 @@
+开始时间: Mon Oct  5 03:23:47 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+Traceback (most recent call last):
+  File "/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_pmp.py", line 85, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_pmp.py", line 63, in main
+    fig, reference_info = enso_portrait_plot(
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/pcmdi_metrics/enso/lib/summary_plot_lib/plot.py", line 113, in enso_portrait_plot
+    tab_all, x_names, y_names, ref_info_dict = json_dict_to_numpy_array_list(
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/pcmdi_metrics/enso/lib/summary_plot_lib/plot.py", line 281, in json_dict_to_numpy_array_list
+    ref_key_act = most_similar_string(ref, ref_key_list)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/pcmdi_metrics/enso/lib/summary_plot_lib/plot.py", line 467, in most_similar_string
+    return max(
+           ^^^^
+ValueError: max() arg is an empty sequence

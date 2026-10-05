@@ -1,0 +1,1102 @@
+开始时间: Mon Oct  5 03:45:56 UTC 2026
+模式: ACCESS-ESM1-5
+集合: ENSO_perf
+Python: Python 3.11.16
+开始时间: Mon Oct  5 03:45:56 UTC 2026
+模式: ACCESS-CM2
+集合: ENSO_proc
+Python: Python 3.11.16
+开始时间: Mon Oct  5 03:45:56 UTC 2026
+模式: ACCESS-ESM1-5
+集合: ENSO_perf
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-ESM1-5: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r4i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+Python: Python 3.11.16
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-CM2: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r5i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-ESM1-5: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r5i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+numpy: 2.3.5
+scipy: 1.17.1
+xarray: 2026.9.0
+cftime: 1.6.6
+netCDF4: 1.7.4
+matplotlib: 3.11.2
+cartopy: 0.26.0
+xesmf: 0.9.2
+xcdat: 0.11.4
+regionmask: 0.13.0
+cmocean: v3.0.3
+numpy: 2.3.5
+scipy: 1.17.1
+xarray: 2026.9.0
+cftime: 1.6.6
+netCDF4: 1.7.4
+matplotlib: 3.11.2
+cartopy: 0.26.0
+xesmf: 0.9.2
+xcdat: 0.11.4
+regionmask: 0.13.0
+cmocean: v3.0.3
+numpy: 2.3.5
+scipy: 1.17.1
+xarray: 2026.9.0
+cftime: 1.6.6
+netCDF4: 1.7.4
+matplotlib: 3.11.2
+cartopy: 0.26.0
+xesmf: 0.9.2
+xcdat: 0.11.4
+regionmask: 0.13.0
+cmocean: v3.0.3
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1213: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageZonal(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1214: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageZonal(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1213: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageZonal(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1214: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageZonal(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageMeridional(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1495: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageMeridional(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageMeridional(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:1495: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageMeridional(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3065: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:3066: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4158: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_mod, keyerror_mod = AverageMeridional(taux_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4159: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_obs, keyerror_obs = AverageMeridional(taux_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4158: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_mod, keyerror_mod = AverageMeridional(taux_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4159: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_obs, keyerror_obs = AverageMeridional(taux_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4158: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_mod, keyerror_mod = AverageMeridional(taux_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:4159: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_obs, keyerror_obs = AverageMeridional(taux_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6950: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11783: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon, keyerror = AverageMeridional(sstmap)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17288: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17289: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17288: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17289: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17288: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17289: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17288: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24819: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLat_mod, keyerror_mod = AverageZonal(prStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24820: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLat_obs, keyerror_obs = AverageZonal(prStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:17289: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssthov_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24901: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageZonal(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24902: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageZonal(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24819: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLat_mod, keyerror_mod = AverageZonal(prStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24820: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLat_obs, keyerror_obs = AverageZonal(prStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25151: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLon_mod, keyerror_mod = AverageMeridional(prStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25152: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLon_obs, keyerror_obs = AverageMeridional(prStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24901: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageZonal(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:24902: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageZonal(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25232: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageMeridional(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25233: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageMeridional(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25151: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLon_mod, keyerror_mod = AverageMeridional(prStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25152: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  prStdLon_obs, keyerror_obs = AverageMeridional(prStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25232: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_mod, keyerror_mod = AverageMeridional(pr_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:25233: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  pr_obs, keyerror_obs = AverageMeridional(pr_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26493: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_mod, keyerror_mod = AverageMeridional(sstStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_obs, keyerror_obs = AverageMeridional(sstStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26493: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_mod, keyerror_mod = AverageMeridional(sstStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_obs, keyerror_obs = AverageMeridional(sstStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26574: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26575: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26574: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26575: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26493: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_mod, keyerror_mod = AverageMeridional(sstStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_obs, keyerror_obs = AverageMeridional(sstStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26493: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_mod, keyerror_mod = AverageMeridional(sstStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstStdLon_obs, keyerror_obs = AverageMeridional(sstStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26574: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26575: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26574: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_mod, keyerror_mod = AverageMeridional(sst_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:26575: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_obs, keyerror_obs = AverageMeridional(sst_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27166: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tauxStdLon_mod, keyerror_mod = AverageMeridional(tauxStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27167: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tauxStdLon_obs, keyerror_obs = AverageMeridional(tauxStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27166: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tauxStdLon_mod, keyerror_mod = AverageMeridional(tauxStd_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27167: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tauxStdLon_obs, keyerror_obs = AverageMeridional(tauxStd_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27254: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_mod, keyerror_mod = AverageMeridional(taux_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27255: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_obs, keyerror_obs = AverageMeridional(taux_obs)
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-ESM1-5: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r5i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+[94m     ComputeCollection: metric = BiasPrLatRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasPrLatRmse = ACCESS-ESM1-5_r5i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = BiasPrLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasPrLonRmse = ACCESS-ESM1-5_r5i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = BiasSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = BiasTauxLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasTauxLonRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoAmpl[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoDuration[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSeasonality[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstDiversity_2[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstSkew[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstTsRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstTsRmse = ACCESS-ESM1-5_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstTsRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = SeasonalPrLatRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalPrLatRmse = ACCESS-ESM1-5_r5i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = SeasonalPrLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalPrLonRmse = ACCESS-ESM1-5_r5i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = SeasonalSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalSstLonRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = SeasonalTauxLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalTauxLonRmse = ACCESS-ESM1-5_r5i1p1f1 and Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+完成时间: Mon Oct  5 03:51:24 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27254: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_mod, keyerror_mod = AverageMeridional(taux_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:27255: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_obs, keyerror_obs = AverageMeridional(taux_obs)
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-ESM1-5: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO/ACCESS-ESM1-5/historical/r4i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+[94m     ComputeCollection: metric = BiasPrLatRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasPrLatRmse = ACCESS-ESM1-5_r4i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = BiasPrLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasPrLonRmse = ACCESS-ESM1-5_r4i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = BiasSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = BiasTauxLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasTauxLonRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoAmpl[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r4i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoDuration[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r4i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSeasonality[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r4i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstDiversity_2[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r4i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstSkew[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-ESM1-5_r4i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstTsRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstTsRmse = ACCESS-ESM1-5_r4i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstTsRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = SeasonalPrLatRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalPrLatRmse = ACCESS-ESM1-5_r4i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = SeasonalPrLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalPrLonRmse = ACCESS-ESM1-5_r4i1p1f1 and GPCPv2.3[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = SeasonalSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalSstLonRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = SeasonalTauxLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, SeasonalTauxLonRmse = ACCESS-ESM1-5_r4i1p1f1 and Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+完成时间: Mon Oct  5 03:51:26 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7820: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7821: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7820: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7821: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7820: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:7821: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8495: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssh_map, keyerror2 = AverageMeridional(ssh_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8495: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssh_map, keyerror2 = AverageMeridional(ssh_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8494: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8495: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssh_map, keyerror2 = AverageMeridional(ssh_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8129: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_map, keyerror = AverageMeridional(taux_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8129: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_map, keyerror = AverageMeridional(taux_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8129: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux_map, keyerror = AverageMeridional(taux_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6629: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6630: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6629: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6630: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6629: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst_map, keyerror1 = AverageMeridional(sst_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:6630: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  thf_map, keyerror2 = AverageMeridional(thf_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8835: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssh_map, keyerror = AverageMeridional(ssh_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5552: UserWarning: areacell is None for variable 'tauu'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  taux, keyerror = AverageHorizontal(taux, region="nino4")
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:5771: UserWarning: Generated land mask is entirely ocean for this region. This may be expected if the region is all ocean.
+  sft = cdutil.generateLandSeaMask(d(*(slice(0, 1),) * n),debug=False) * 100.0
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'zos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:8835: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  ssh_map, keyerror = AverageMeridional(ssh_map)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11532: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror1 = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11533: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_NDJ, keyerror2 = AverageMeridional(sst3_NDJ)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:11534: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst3_MAM, keyerror3 = AverageMeridional(sst3_MAM)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14907: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_mod, keyerror_mod = AverageMeridional(sstmap_mod)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:14908: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sstlon_obs, keyerror_obs = AverageMeridional(sstmap_obs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7303: UserWarning: areacell is None for variable 'unknown'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  tab, keyerror = dict_average[average](tab, areacell, region=region, **kwargs)
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoUvcdatToolsLib.py:7406: UserWarning: areacell is None for variable 'tos'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  variable, areacell, keyerror3 = Read_mask_area(
+/scratch/p66/ars599/enso_metrics_cache/pythonpath/EnsoMetrics/EnsoMetricsLib.py:12116: UserWarning: areacell is None for variable 'skewness'; synthesising cosine-latitude weights. Provide areacella/sftlf for accurate spatial averages.
+  sst2, keyerror = AverageMeridional(sst2)
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi_full/manifests/inventory.json
+ACCESS-CM2: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r5i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+[94m     ComputeCollection: metric = BiasSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-CM2_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasSstLonRmse = ACCESS-CM2_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = BiasTauxLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, BiasTauxLonRmse = ACCESS-CM2_r5i1p1f1 and Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoAmpl[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsodSstOce_2[0m
+[94m     ComputeMetric: twoVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfls sign reversed[0m
+[93m     range old = -3.41 to +238.36[0m
+[93m     range new = -238.36 to +3.41[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfss sign reversed[0m
+[93m     range old = -2.94 to +32.31[0m
+[93m     range new = -32.31 to +2.94[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfls sign reversed[0m
+[93m     range old = -3.41 to +271.90[0m
+[93m     range new = -271.90 to +3.41[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfss sign reversed[0m
+[93m     range old = -3.01 to +32.31[0m
+[93m     range new = -32.31 to +3.01[0m
+[94m     ComputeMetric: twoVarmetric = HadISST_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarmetric = Tropflux_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoFbSshSst[0m
+[94m     ComputeMetric: twoVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[94m     ComputeMetric: twoVarmetric = HadISST_AVISO[0m
+[94m     ComputeMetric: twoVarmetric = Tropflux_AVISO[0m
+[94m     ComputeCollection: metric = EnsoFbSstTaux[0m
+[94m     ComputeMetric: twoVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarmetric = HadISST_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarmetric = Tropflux_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoFbSstThf[0m
+[94m     ComputeMetric: twoVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfls sign reversed[0m
+[93m     range old = -3.41 to +238.36[0m
+[93m     range new = -238.36 to +3.41[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfss sign reversed[0m
+[93m     range old = -2.94 to +32.31[0m
+[93m     range new = -32.31 to +2.94[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfls sign reversed[0m
+[93m     range old = -3.41 to +271.90[0m
+[93m     range new = -271.90 to +3.41[0m
+[93m               EnsoUvcdatToolsLib ReadAndSelectRegion[0m
+[93m                         hfss sign reversed[0m
+[93m     range old = -3.01 to +32.31[0m
+[93m     range new = -32.31 to +3.01[0m
+[94m     ComputeMetric: twoVarmetric = HadISST_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeMetric: twoVarmetric = Tropflux_Tropflux[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoFbTauxSsh[0m
+[94m     ComputeMetric: twoVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[94m     ComputeMetric: twoVarmetric = Tropflux_AVISO[0m
+[93m                         NOTE: Estimated landmask applied[0m
+[94m     ComputeCollection: metric = EnsoSeasonality[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstLonRmse[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-CM2_r5i1p1f1 and HadISST[0m
+[94m     ComputeMetric: oneVarRMSmetric, EnsoSstLonRmse = ACCESS-CM2_r5i1p1f1 and Tropflux[0m
+[94m     ComputeCollection: metric = EnsoSstSkew[0m
+[94m     ComputeMetric: oneVarmetric = ACCESS-CM2_r5i1p1f1[0m
+[94m     ComputeMetric: oneVarmetric = HadISST[0m
+[94m     ComputeMetric: oneVarmetric = Tropflux[0m
+完成时间: Mon Oct  5 04:01:08 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

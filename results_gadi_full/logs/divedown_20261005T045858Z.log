@@ -1,0 +1,12 @@
+开始时间: Mon Oct  5 04:58:58 UTC 2026
+模式: ACCESS-CM2
+集合: ENSO_perf
+Python: Python 3.11.16
+                    curve 15:59
+                              took 0 minute(s)
+                    map 15:59
+                              took 0 minute(s)
+Dive-down metrics plotted: 1
+Failures: 0 (/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/divedown/divedown_failures.txt)
+完成时间: Mon Oct  5 04:59:37 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

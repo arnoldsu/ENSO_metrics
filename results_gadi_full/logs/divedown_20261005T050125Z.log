@@ -1,0 +1,2336 @@
+开始时间: Mon Oct  5 05:01:25 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    dot 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    dot 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    boxplot 16:01
+                              took 0 minute(s)
+                    dot 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    dot 16:01
+                              took 0 minute(s)
+                    boxplot 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    dot 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    hovmoeller 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:01
+                              took 0 minute(s)
+                    map 16:01
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    boxplot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    dot 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    map 16:02
+                              took 0 minute(s)
+                    curve 16:02
+                              took 0 minute(s)
+                    hovmoeller 16:02
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    boxplot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    dot 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    hovmoeller 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:03
+                              took 0 minute(s)
+                    curve 16:03
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    boxplot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    dot 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    map 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:04
+                              took 0 minute(s)
+                    hovmoeller 16:04
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    scatterplot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    hovmoeller 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    dot 16:05
+                              took 0 minute(s)
+                    curve 16:05
+                              took 0 minute(s)
+                    map 16:05
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    scatterplot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    dot 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    hovmoeller 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    curve 16:06
+                              took 0 minute(s)
+                    map 16:06
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    scatterplot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    hovmoeller 16:07
+                              took 0 minute(s)
+                    dot 16:07
+                              took 0 minute(s)
+                    curve 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    map 16:07
+FAILED ENSO_tel ACCESS-CM2 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    map 16:07
+                              took 0 minute(s)
+                    map 16:07
+                              took 0 minute(s)
+                    map 16:08
+FAILED ENSO_tel ACCESS-CM2 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    map 16:08
+FAILED ENSO_tel ACCESS-ESM1-5 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    map 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    map 16:08
+FAILED ENSO_tel ACCESS-ESM1-5 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    dot 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    hovmoeller 16:08
+                              took 0 minute(s)
+                    curve 16:08
+                              took 0 minute(s)
+                    map 16:08
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    hovmoeller 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/cartopy/io/__init__.py:263: DownloadWarning: Downloading: https://naturalearth.s3.amazonaws.com/110m_physical/ne_110m_ocean.zip
+  warnings.warn(f'Downloading: {url}', DownloadWarning)
+
+                    map 16:09
+FAILED ENSO_tel CESM2 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    map 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    map 16:09
+FAILED ENSO_tel CESM2 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    hovmoeller 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    dot 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    hovmoeller 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+                    curve 16:09
+                              took 0 minute(s)
+                    map 16:09
+                              took 0 minute(s)
+Dive-down metrics plotted: 348
+Failures: 6 (/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/divedown/divedown_failures.txt)
+完成时间: Mon Oct  5 05:09:32 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

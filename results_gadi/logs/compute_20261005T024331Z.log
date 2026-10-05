@@ -1,0 +1,17 @@
+开始时间: Mon Oct  5 02:43:31 UTC 2026
+模式: ACCESS-CM2
+集合: ENSO_perf
+Python: Python 3.11.14
+数据清单: /g/data/p66/ars599/ENSO_metrics/results_gadi/manifests/inventory.json
+ACCESS-CM2: root=/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r1i1p1f1, variables=['lhf', 'lwr', 'pr', 'shf', 'ssh', 'sst', 'swr', 'taux', 'tauy', 'thf'], split=[]
+ERROR xesmf: ImportError: Numba needs NumPy 2.3 or less. Got NumPy 2.4.
+WARNING xcdat: ImportError: Numba needs NumPy 2.3 or less. Got NumPy 2.4.
+numpy: 2.4.6
+scipy: 1.17.1
+xarray: 2025.10.1
+cftime: 1.6.5
+netCDF4: 1.7.2
+matplotlib: 3.10.8
+cartopy: 0.25.0
+regionmask: 0.12.1
+cmocean: v3.0.3

@@ -1,0 +1,45 @@
+{
+  "ENSO_perf": {
+    "CMIP6": {
+      "BiasPrLatRmse": "GPCPv2.3",
+      "BiasPrLonRmse": "GPCPv2.3",
+      "BiasSstLonRmse": "Tropflux",
+      "BiasTauxLonRmse": "Tropflux",
+      "EnsoAmpl": "Tropflux",
+      "EnsoDuration": "Tropflux",
+      "EnsoSeasonality": "Tropflux",
+      "EnsoSstDiversity_2": "Tropflux",
+      "EnsoSstLonRmse": "Tropflux",
+      "EnsoSstSkew": "Tropflux",
+      "EnsoSstTsRmse": "Tropflux",
+      "SeasonalPrLatRmse": "GPCPv2.3",
+      "SeasonalPrLonRmse": "GPCPv2.3",
+      "SeasonalSstLonRmse": "Tropflux",
+      "SeasonalTauxLonRmse": "Tropflux"
+    }
+  },
+  "ENSO_proc": {
+    "CMIP6": {
+      "BiasSstLonRmse": "Tropflux",
+      "BiasTauxLonRmse": "Tropflux",
+      "EnsoAmpl": "Tropflux",
+      "EnsodSstOce_2": "Tropflux_Tropflux",
+      "EnsoFbSshSst": "Tropflux_AVISO",
+      "EnsoFbSstTaux": "Tropflux_Tropflux",
+      "EnsoFbSstThf": "Tropflux_Tropflux",
+      "EnsoFbTauxSsh": "Tropflux_AVISO",
+      "EnsoSeasonality": "Tropflux",
+      "EnsoSstLonRmse": "Tropflux",
+      "EnsoSstSkew": "Tropflux"
+    }
+  },
+  "ENSO_tel": {
+    "CMIP6": {
+      "EnsoAmpl": "Tropflux",
+      "EnsoPrMapDjfRmse": "Tropflux_GPCPv2.3",
+      "EnsoPrMapJjaRmse": "Tropflux_GPCPv2.3",
+      "EnsoSeasonality": "Tropflux",
+      "EnsoSstLonRmse": "Tropflux"
+    }
+  }
+}

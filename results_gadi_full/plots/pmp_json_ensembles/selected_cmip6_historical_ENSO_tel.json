@@ -1,0 +1,3762 @@
+{
+  "RESULTS": {
+    "model": {
+      "ACCESS-CM2_r1i1p1f1": {
+        "r1i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoPrMapDjfCorr": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapDjfRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapDjfStd": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaCorr": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapJjaRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaStd": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 0.8119679626602269,
+                  "value_error": 0.06321162016239695
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 5.590927538900915,
+                  "value_error": 16.870588395915085
+                },
+                "Tropflux": {
+                  "value": 10.178444106758235,
+                  "value_error": 21.194633622721586
+                }
+              }
+            },
+            "EnsoPrMapDjfCorr": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.38675459187119954,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.38589301362216555,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.28910925424294526,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.28716715938498777,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfStd": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 1.2377511560756511,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 1.2678283971416366,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaCorr": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.5449989399384405,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.5555496185659455,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.3173262595938212,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.31331634126315017,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaStd": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.9102029857870569,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.9461707928407586,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": 0.786149121267317,
+                  "value_error": 0.12258955892288097
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 35.75806162177022,
+                  "value_error": 20.561240175109603
+                },
+                "Tropflux": {
+                  "value": 45.9844649363057,
+                  "value_error": 25.613022255443525
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.054295903117361134,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.03955626904869506,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-CM2_r2i1p1f1": {
+        "r2i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r2i1p1f1": {
+                  "value": 0.8663654613551637,
+                  "value_error": 0.06744645969230056
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 12.664953371368512,
+                  "value_error": 18.000827336923198
+                },
+                "Tropflux": {
+                  "value": 4.1608815991542,
+                  "value_error": 22.614560402904306
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r2i1p1f1": {
+                  "value": 0.7642075749864747,
+                  "value_error": 0.11916806494942424
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 37.55106427987233,
+                  "value_error": 19.987372710669263
+                },
+                "Tropflux": {
+                  "value": 47.492047060895395,
+                  "value_error": 24.898158754350895
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r2i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.06439755070169943,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.051004235108007036,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-CM2_r3i1p1f1": {
+        "r3i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r3i1p1f1": {
+                  "value": 0.9216770738506354,
+                  "value_error": 0.07175246288506017
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 19.857853504933352,
+                  "value_error": 19.150059191919343
+                },
+                "Tropflux": {
+                  "value": 1.9578020457401775,
+                  "value_error": 24.058348108619533
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r3i1p1f1": {
+                  "value": 0.8503443386381692,
+                  "value_error": 0.13259995411325512
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 30.512205476987926,
+                  "value_error": 22.240226065633344
+                },
+                "Tropflux": {
+                  "value": 41.573674513711474,
+                  "value_error": 27.70452561877754
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r3i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.07099674476919621,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.053051996165103386,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-CM2_r4i1p1f1": {
+        "r4i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r4i1p1f1": {
+                  "value": 0.9153071796188214,
+                  "value_error": 0.07125656729167139
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 19.029491954733384,
+                  "value_error": 19.017709310332435
+                },
+                "Tropflux": {
+                  "value": 1.2531513241742813,
+                  "value_error": 23.89207606259389
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r4i1p1f1": {
+                  "value": 0.880147117115898,
+                  "value_error": 0.13724730328585416
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 28.07680460115935,
+                  "value_error": 23.01969915742836
+                },
+                "Tropflux": {
+                  "value": 39.52595483520548,
+                  "value_error": 28.675510903596756
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r4i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.06228150173227509,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.04082270987045396,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-CM2_r5i1p1f1": {
+        "r5i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-CM2_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-CM2_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-CM2_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-CM2_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-CM2_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-CM2_r5i1p1f1": {
+                  "value": 0.8826466929152472,
+                  "value_error": 0.06871395185021799
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 14.782217131717438,
+                  "value_error": 18.33910910278111
+                },
+                "Tropflux": {
+                  "value": 2.359818481105035,
+                  "value_error": 23.039546059619262
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-CM2_r5i1p1f1": {
+                  "value": 0.8973375859857043,
+                  "value_error": 0.13992792956834604
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 26.672046887957677,
+                  "value_error": 23.469305154042644
+                },
+                "Tropflux": {
+                  "value": 38.34481457965004,
+                  "value_error": 29.235582586986887
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-CM2_r5i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.07978452075930541,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.06257854762168577,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-ESM1-5_r1i1p1f1": {
+        "r1i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoPrMapDjfCorr": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapDjfRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapDjfStd": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaCorr": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapJjaRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaStd": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": 0.8337438021998876,
+                  "value_error": 0.06490686697138262
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 8.422727807716724,
+                  "value_error": 17.323033865124863
+                },
+                "Tropflux": {
+                  "value": 7.769556221667649,
+                  "value_error": 21.763043907479844
+                }
+              }
+            },
+            "EnsoPrMapDjfCorr": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.4743809751890077,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.4737340218247399,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.29674595162572576,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.2937683036377085,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfStd": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 1.1092957499124485,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 1.1362577963856808,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaCorr": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.6064895866237516,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.5989109408091065,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.3528419115930763,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.34421392712135124,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaStd": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 1.0163159607914596,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 1.056443656734348,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": 0.7699502192615618,
+                  "value_error": 0.1200635543797235
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 37.08179122509422,
+                  "value_error": 20.137567991673887
+                },
+                "Tropflux": {
+                  "value": 47.097475605165414,
+                  "value_error": 25.085256178546683
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.18937467339859496,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.18807128163111725,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-ESM1-5_r2i1p1f1": {
+        "r2i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r2i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r2i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r2i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r2i1p1f1": {
+                  "value": 0.8231934131030322,
+                  "value_error": 0.06408552029414309
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 7.0507212485128035,
+                  "value_error": 17.103824142506436
+                },
+                "Tropflux": {
+                  "value": 8.936661831172101,
+                  "value_error": 21.48764925920777
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r2i1p1f1": {
+                  "value": 0.7537615426523728,
+                  "value_error": 0.11753914435193333
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 38.40468523720745,
+                  "value_error": 19.71416324711076
+                },
+                "Tropflux": {
+                  "value": 48.20978369705619,
+                  "value_error": 24.557823248762432
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r2i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.20913885919688333,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.20756610175497528,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-ESM1-5_r3i1p1f1": {
+        "r3i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r3i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r3i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r3i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r3i1p1f1": {
+                  "value": 0.7665427575009368,
+                  "value_error": 0.05967527273691416
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.3163123609341788,
+                  "value_error": 15.926770444611185
+                },
+                "Tropflux": {
+                  "value": 15.203473161857191,
+                  "value_error": 20.008908785212213
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r3i1p1f1": {
+                  "value": 0.8313791292787451,
+                  "value_error": 0.12964258052171063
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 32.06199008914176,
+                  "value_error": 21.7442028379005
+                },
+                "Tropflux": {
+                  "value": 42.87675544763513,
+                  "value_error": 27.08663224936309
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r3i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.1939593525235579,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.19271986645629033,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-ESM1-5_r4i1p1f1": {
+        "r4i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r4i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r4i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r4i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r4i1p1f1": {
+                  "value": 0.8096987150184989,
+                  "value_error": 0.06303495947308432
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 5.295827271003044,
+                  "value_error": 16.823439315295495
+                },
+                "Tropflux": {
+                  "value": 10.429472919790811,
+                  "value_error": 21.13539991575601
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r4i1p1f1": {
+                  "value": 0.7776543332227194,
+                  "value_error": 0.12126490906783585
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 36.45223227633691,
+                  "value_error": 20.339064289521826
+                },
+                "Tropflux": {
+                  "value": 46.568133491123795,
+                  "value_error": 25.33625899341659
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r4i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.22369586514035483,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.22155222231356037,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "ACCESS-ESM1-5_r5i1p1f1": {
+        "r5i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "ACCESS-ESM1-5_r5i1p1f1": {
+                    "keyerror": null,
+                    "name": "ACCESS-ESM1-5_r5i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-16 12:00:00",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "ACCESS-ESM1-5_r5i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r5i1p1f1": {
+                  "value": 0.8128300400836109,
+                  "value_error": 0.06327873279878594
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 5.703034862011593,
+                  "value_error": 16.88850012894415
+                },
+                "Tropflux": {
+                  "value": 10.083079339883563,
+                  "value_error": 21.217136253346546
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r5i1p1f1": {
+                  "value": 0.7718456801271755,
+                  "value_error": 0.1203591264349292
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 36.92689938990296,
+                  "value_error": 20.187142588968577
+                },
+                "Tropflux": {
+                  "value": 46.96724034816561,
+                  "value_error": 25.147010978014013
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "ACCESS-ESM1-5_r5i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.2291633750388117,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.2245955748627629,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "CESM2_r1i1p1f1": {
+        "r1i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoPrMapDjfCorr": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapDjfRmse": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapDjfStd": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during DJF, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO DJF PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapDjf",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaCorr": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": ""
+                }
+              },
+              "EnsoPrMapJjaRmse": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C"
+                }
+              },
+              "EnsoPrMapJjaStd": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST_GPCPv2.3": {
+                    "name": "HadISST_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux_GPCPv2.3": {
+                    "name": "Tropflux_GPCPv2.3",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA regressed against precipitation anomalies in global during JJA, time series are linearly detrended, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO JJA PRA pattern",
+                  "ref": "Using CDAT regridding, correlation (centered and biased), std (centered and biased) and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": ""
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; GPCPv2.3's pr",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoPrMapJja",
+                  "units": "mm/day/C / mm/day/C"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "CESM2_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "CESM2_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-15 13:00:00.000007",
+                      "2014-12-15 12:00:00"
+                    ]
+                  },
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "CESM2_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": 1.2343530069824296,
+                  "value_error": 0.09609425126584224
+                },
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 60.51923833384828,
+                  "value_error": 25.646654146100488
+                },
+                "Tropflux": {
+                  "value": 36.546652955885435,
+                  "value_error": 32.22006402615272
+                }
+              }
+            },
+            "EnsoPrMapDjfCorr": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.4029221521432843,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.4042463286759632,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfRmse": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.2724184880931823,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.27038670370398205,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapDjfStd": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 1.103435752621778,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 1.1302491415404823,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaCorr": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.30407991074803586,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.2962227608672332,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaRmse": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.24172057491059837,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.23335482282970801,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoPrMapJjaStd": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST_GPCPv2.3": {
+                  "value": 0.9471536191602843,
+                  "value_error": null
+                },
+                "Tropflux_GPCPv2.3": {
+                  "value": 0.984581576611681,
+                  "value_error": null
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": 1.0464806640967896,
+                  "value_error": 0.1631848202363212
+                },
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 14.484485807807454,
+                  "value_error": 27.370049385052752
+                },
+                "Tropflux": {
+                  "value": 28.097339962837097,
+                  "value_error": 34.09471792857007
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "CESM2_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.1700409081933331,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.1534326627383453,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "TaiESM1_r1i1p1f1": {
+        "r1i1p1f1": {
+          "metadata": {
+            "description_of_the_collection": "Describe which science question this collection is about",
+            "metrics": {
+              "EnsoAmpl": {
+                "diagnostic": {
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "TaiESM1_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "TaiESM1_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-17 00:29:59.999993",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Standard deviation of nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO amplitude",
+                  "ref": "Using CDAT regression calculation",
+                  "time_frequency": "monthly",
+                  "units": "C"
+                },
+                "metric": {
+                  "datasets": "TaiESM1_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoAmpl",
+                  "units": "%"
+                }
+              },
+              "EnsoSeasonality": {
+                "diagnostic": {
+                  "HadISST": {
+                    "keyerror": null,
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "TaiESM1_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "TaiESM1_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-17 00:29:59.999993",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "keyerror": null,
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "Ratio between NDJ and MAM standard deviation nino3.4 sstA, time series are linearly detrended",
+                  "name": "ENSO seasonality",
+                  "ref": "Using CDAT std dev calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "TaiESM1_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the absolute value of the relative difference between model and observations values (M = 100 * abs[[model-obs] / obs])",
+                  "name": "EnsoSeasonality",
+                  "units": "%"
+                }
+              },
+              "EnsoSstLonRmse": {
+                "diagnostic": {
+                  "HadISST": {
+                    "name": "HadISST",
+                    "nyears": 149,
+                    "time_period": [
+                      "1870-01-16 12:00:00",
+                      "2018-12-16 12:00:00"
+                    ]
+                  },
+                  "TaiESM1_r1i1p1f1": {
+                    "keyerror": null,
+                    "name": "TaiESM1_r1i1p1f1",
+                    "nyears": 165,
+                    "time_period": [
+                      "1850-01-17 00:29:59.999993",
+                      "2014-12-16 12:00:00"
+                    ]
+                  },
+                  "Tropflux": {
+                    "name": "Tropflux",
+                    "nyears": 40,
+                    "time_period": [
+                      "1979-01-15 00:00:00.000080",
+                      "2018-12-15 12:00:00"
+                    ]
+                  },
+                  "method": "nino3.4 SSTA during DEC regressed against equatorial_pacific SSTA, time series are linearly detrended, smoothing using a triangle shaped window of 5 points, observations and model regridded to generic_1x1deg",
+                  "name": "ENSO Zonal SSTA pattern",
+                  "ref": "Using xarray/xESMF-compatible regridding and rms (uncentered and biased) calculation",
+                  "time_frequency": "monthly",
+                  "units": "C/C"
+                },
+                "metric": {
+                  "datasets": "TaiESM1_r1i1p1f1; HadISST's tos; Tropflux's tos; 's ",
+                  "method": "The metric is the statistical value between the model and the observations",
+                  "name": "EnsoSstLonRmse",
+                  "units": "C/C"
+                }
+              }
+            },
+            "name": "Metrics Collection for ENSO teleconnections"
+          },
+          "value": {
+            "EnsoAmpl": {
+              "diagnostic": {
+                "HadISST": {
+                  "value": 0.7689751208607278,
+                  "value_error": 0.06299689650940954
+                },
+                "TaiESM1_r1i1p1f1": {
+                  "value": 1.17876858811441,
+                  "value_error": 0.09176701012578374
+                },
+                "Tropflux": {
+                  "value": 0.9039789553693535,
+                  "value_error": 0.14293162279134272
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 53.290861581450514,
+                  "value_error": 24.49175408221595
+                },
+                "Tropflux": {
+                  "value": 30.397790912375978,
+                  "value_error": 30.769155311503667
+                }
+              }
+            },
+            "EnsoSeasonality": {
+              "diagnostic": {
+                "HadISST": {
+                  "value": 1.2237319438258514,
+                  "value_error": 0.20084217320318823
+                },
+                "TaiESM1_r1i1p1f1": {
+                  "value": 1.3249885460725808,
+                  "value_error": 0.2066144412640964
+                },
+                "Tropflux": {
+                  "value": 1.455413003574438,
+                  "value_error": 0.46317359866239177
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 8.274410319809316,
+                  "value_error": 34.654249414092966
+                },
+                "Tropflux": {
+                  "value": 8.961336554059896,
+                  "value_error": 43.16860529470092
+                }
+              }
+            },
+            "EnsoSstLonRmse": {
+              "diagnostic": {
+                "HadISST": {
+                  "value": null,
+                  "value_error": null
+                },
+                "TaiESM1_r1i1p1f1": {
+                  "value": null,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": null,
+                  "value_error": null
+                }
+              },
+              "metric": {
+                "HadISST": {
+                  "value": 0.1534274870443132,
+                  "value_error": null
+                },
+                "Tropflux": {
+                  "value": 0.13495358867298116,
+                  "value_error": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

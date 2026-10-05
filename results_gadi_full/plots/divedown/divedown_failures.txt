@@ -1,0 +1,6 @@
+ENSO_tel ACCESS-CM2 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+ENSO_tel ACCESS-CM2 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+ENSO_tel ACCESS-ESM1-5 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+ENSO_tel ACCESS-ESM1-5 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+ENSO_tel CESM2 r1i1p1f1 EnsoPrMapDjfRmse: URLError: <urlopen error [Errno 101] Network is unreachable>
+ENSO_tel CESM2 r1i1p1f1 EnsoPrMapJjaRmse: URLError: <urlopen error [Errno 101] Network is unreachable>

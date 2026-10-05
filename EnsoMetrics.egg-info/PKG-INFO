@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: EnsoMetrics
+Version: 2.0.1
+Summary: Library for ENSO Metrics
+Home-page: https://github.com/CLIVAR-PRP/ENSO_metrics
+Author: Eric Guilyardi
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: packaging
+Requires-Dist: xarray
+Requires-Dist: xcdat
+Requires-Dist: cftime
+Requires-Dist: matplotlib
+Requires-Dist: cartopy
+Requires-Dist: cmocean
+Requires-Dist: regionmask
+Requires-Dist: xesmf
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

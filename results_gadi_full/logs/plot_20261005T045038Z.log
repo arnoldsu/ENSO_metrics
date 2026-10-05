@@ -1,0 +1,17 @@
+开始时间: Mon Oct  5 04:50:38 UTC 2026
+模式: ACCESS-CM2 ACCESS-ESM1-5 TaiESM1 CESM2
+集合: ENSO_perf ENSO_proc ENSO_tel
+Python: Python 3.11.16
+/g/data/p66/ars599/ENSO_metrics/scripts/plot_enso_gadi_summary.py:82: RuntimeWarning: Mean of empty slice
+  values = (values - np.nanmean(values, axis=0)) / np.nanstd(values, axis=0)
+/scratch/p66/ars599/enso_metrics_env/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:2015: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_perf_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_proc_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_tel_summary.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_eq_bias_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_enso_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_feedback_all_metrics.png
+/g/data/p66/ars599/ENSO_metrics/results_gadi_full/plots/ENSO_teleconnection_all_metrics.png
+完成时间: Mon Oct  5 04:50:55 UTC 2026
+输出目录: /g/data/p66/ars599/ENSO_metrics/results_gadi_full

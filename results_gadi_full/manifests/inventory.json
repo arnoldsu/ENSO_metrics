@@ -1,0 +1,59 @@
+{
+  "cmip_roots": [
+    "/g/data/fs38/publications/CMIP6",
+    "/g/data/oi10/replicas/CMIP6"
+  ],
+  "member": "r4i1p1f1",
+  "models": {
+    "ACCESS-CM2": {
+      "root": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1",
+      "unsupported_split": {},
+      "variables": {
+        "lhf": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/hfls/gn/files/d20210607/hfls_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "lwr": [
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rlds/gn/files/d20210607/rlds_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rlus/gn/files/d20210607/rlus_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc"
+        ],
+        "pr": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/pr/gn/files/d20210607/pr_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "shf": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/hfss/gn/files/d20210607/hfss_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "ssh": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Omon/zos/gn/files/d20210607/zos_Omon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "sst": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Omon/tos/gn/files/d20210607/tos_Omon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "swr": [
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rsds/gn/files/d20210607/rsds_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rsus/gn/files/d20210607/rsus_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc"
+        ],
+        "taux": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/tauu/gn/files/d20210607/tauu_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "tauy": "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/tauv/gn/files/d20210607/tauv_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+        "thf": [
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/hfls/gn/files/d20210607/hfls_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/hfss/gn/files/d20210607/hfss_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rlds/gn/files/d20210607/rlds_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rlus/gn/files/d20210607/rlus_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rsds/gn/files/d20210607/rsds_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc",
+          "/g/data/fs38/publications/CMIP6/CMIP/CSIRO-ARCCSS/ACCESS-CM2/historical/r4i1p1f1/Amon/rsus/gn/files/d20210607/rsus_Amon_ACCESS-CM2_historical_r4i1p1f1_gn_185001-201412.nc"
+        ]
+      }
+    }
+  },
+  "obs_roots": [
+    "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2",
+    "/g/data/kj13/datasets/esmvaltool/obsdata-v2",
+    "/g/data/ct11/access-nri/era5-derived"
+  ],
+  "observations": {
+    "AVISO": {
+      "ssh": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/CMEMS/OBS6_CMEMS_sat_SEALEVEL-GLO-PHY-L4_Omon_zos_199301-202312.nc"
+    },
+    "GPCPv2.3": {
+      "pr": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/GPCP-SG/OBS_GPCP-SG_sat_2.3_Amon_pr_197901-202512.nc"
+    },
+    "HadISST": {
+      "sst": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/HadISST/OBS_HadISST_reanaly_1_Omon_tos_187001-202112.nc"
+    },
+    "Tropflux": {
+      "sst": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/TROPFLUX/OBS6_TROPFLUX_reanaly_v1_Omon_tos_197901-201812.nc",
+      "taux": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/TROPFLUX/OBS6_TROPFLUX_reanaly_v1_Amon_tauu_197901-201812.nc",
+      "thf": "/g/data/ct11/access-nri/replicas/esmvaltool/obsdata-v2/Tier2/TROPFLUX/OBS6_TROPFLUX_reanaly_v1_Omon_hfds_197901-201812.nc"
+    }
+  }
+}
