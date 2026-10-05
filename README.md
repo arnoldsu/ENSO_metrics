@@ -196,6 +196,49 @@ the corrected multi-file reader:
 Use `qstat -u "$USER"` to check the jobs. Both submission scripts schedule a
 dependent portrait-plot job after calculation.
 
+### Individual metric calculation flow
+
+The following diagram shows how a single model, ensemble member, and metric
+collection move from native input data to summary and dive-down figures:
+
+```mermaid
+flowchart TD
+    A["run_enso_gadi.sh<br/>MODE=compute"] --> B["Read ENSO_MODELS,<br/>ENSO_MEMBER and ENSO_COLLECTIONS"]
+    B --> C["scripts/run_enso_gadi.py"]
+    C --> D["Locate the CMIP6 historical member"]
+    D --> E["Find required model variables<br/>tos, pr, tauu, tauv, zos and heat fluxes"]
+    E --> F["Find reference observations<br/>HadISST, GPCP, TROPFLUX and CMEMS"]
+    F --> G["Build model and observation dictionaries"]
+    G --> H["ComputeCollection()<br/>lib/EnsoComputeMetricsLib.py"]
+    H --> I["Read native NetCDF with xarray/xCDAT"]
+    I --> J["Combine annual NetCDF files"]
+    J --> K["Regrid and select ENSO regions"]
+    K --> L["Calculate diagnostics and metrics"]
+    L --> M["Write metric JSON"]
+    L --> N["Write per-metric dive-down NetCDF"]
+    M --> O["MODE=pmp_plot<br/>PMP portrait plots"]
+    M --> P["MODE=plot<br/>complete thematic heatmaps"]
+    M --> Q["MODE=divedown"]
+    N --> Q
+    Q --> R["Original EnsoMetricPlot.main_plotter()"]
+    R --> S["Metric curves, maps,<br/>Hovmoller and scatter plots"]
+```
+
+The main calculation call chain is:
+
+```text
+run_enso_gadi.sh
+└── scripts/run_enso_gadi.py
+    ├── locate_model_root()
+    ├── variable_files()
+    ├── observation_dictionary()
+    └── ComputeCollection()
+        ├── xarray/xCDAT input
+        ├── diagnostics and ENSO metrics
+        ├── JSON output
+        └── per-metric NetCDF output
+```
+
 ### Plotting existing results
 
 Generate the PMP reduced metric set (the default):
