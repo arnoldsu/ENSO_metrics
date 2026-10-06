@@ -312,6 +312,30 @@ The figures are grouped by collection, model, member, and metric below:
 results_gadi_full/plots/divedown/
 ```
 
+Generate one feedback metric, for example the SST-wind-stress feedback:
+
+```bash
+MODE=divedown ENSO_MODELS=ACCESS-CM2 ENSO_DIVEDOWN_MEMBERS=r1i1p1f1 ENSO_COLLECTIONS=ENSO_proc ENSO_DIVEDOWN_METRICS=EnsoFbSstTaux ENSO_OUTPUT=$PWD/results_gadi_full ./run_enso_gadi.sh
+```
+
+Generate one equatorial-bias metric, for example `eq_Taux_bias`:
+
+```bash
+MODE=divedown ENSO_MODELS=ACCESS-CM2 ENSO_DIVEDOWN_MEMBERS=r1i1p1f1 ENSO_COLLECTIONS=ENSO_perf ENSO_DIVEDOWN_METRICS=BiasTauxLonRmse ENSO_OUTPUT=$PWD/results_gadi_full ./run_enso_gadi.sh
+```
+
+The portrait labels and internal metric names differ for the common
+equatorial-bias metrics:
+
+| Portrait label | Metric name used by `ENSO_DIVEDOWN_METRICS` |
+| --- | --- |
+| `eq_PR_bias` | `BiasPrLonRmse` |
+| `eq_SST_bias` | `BiasSstLonRmse` |
+| `eq_Taux_bias` | `BiasTauxLonRmse` |
+
+Other feedback metric names include `EnsoFbSshSst`, `EnsoFbSstThf`, and
+`EnsoFbTauxSsh`; these use `ENSO_COLLECTIONS=ENSO_proc`.
+
 Each metric can produce multiple numbered diagnostic and dive-down PNG files,
 depending on the plot definitions retained from the original ENSO Metrics
 package. `scripts/plot_enso_gadi_divedowns.py` is the Gadi-compatible batch
