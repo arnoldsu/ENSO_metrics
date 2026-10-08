@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+type: software
+title: "Your Repository Title"
+authors:
+  - family-names: Sullivan
+    given-names: Arnold
+    orcid: https://orcid.org/0000-0002-5712-6195
+repository-code: https://github.com/arnoldsu/YOUR_REPO
+license: MIT
