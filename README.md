@@ -17,7 +17,9 @@ Metrics and collections devised by CLIVAR ENSO group
 * Jiwoo Lee <lee1043@llnl.gov>
 
 ### Latest Gadi workflow update
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23249660.svg)](https://doi.org/10.5281/zenodo.23249660)
 
+The DOI only cover this local change which is suitable for NCI Gadi; the original belongs to the main creators.
 The original ENSO Metrics package, authorship, contacts, and scientific
 references above remain unchanged. The latest NCI Gadi Python 3 workflow and
 multi-file CMIP6 updates in this checkout were prepared by:
